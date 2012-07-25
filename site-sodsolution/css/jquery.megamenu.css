@@ -1,0 +1,92 @@
+/*
+  jQuery MegaMenu Plugin
+  Author: GeekTantra
+  Author URI: http://www.geektantra.com
+*/
+  
+
+#box-conteudo-principal {
+  background: url(../img/mega-menu-bg-img.png) no-repeat left top;
+  width:200px;
+  height:300px;
+  padding:15px 0 0 0;
+}
+#box-conteudo-principal h1 {
+	color:#a8c291;
+	font-size:15px;
+	margin:0 0 0 12px;
+	padding:0;
+}
+#box-conteudo-principal p {
+	color:#a7b49b;
+	font-size:12px;
+	margin:0 0 0 10px;
+	padding:10px 30px 0 5px;
+	line-height:17px;
+	height:170px;
+}
+ #box-conteudo-principal a {
+	 background:#192211;
+	 float:right;
+	color:#a7b49b;
+	 padding:0 5px 2px 5px;
+	 font-size:11px;
+	 margin:5px 10px 0 0;
+	 line-height:14px;
+ }
+ 
+ 
+ul.megamenu {
+  margin: 0px auto;
+  padding: 0;
+  list-style: none;
+  display: none;
+}
+
+ul.megamenu li.mm-item {
+}
+
+ul.megamenu li {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.megamenu li.clear-fix {
+  float: none;
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+  height: 0px;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+ul.megamenu a.mm-item-link:link, ul.megamenu a.mm-item-link:visited {
+  position: relative;
+  display: inline-block;
+  color: #9c9c9b;
+  padding: 8px 45px 2px 45px;
+  margin: 0px 3px 0px 0px;
+  text-decoration: none;
+  z-index: 10;
+  font-size: 14px;
+  text-align:center;
+   font-family: 'Gotham-Book', sans-serif;
+   text-transform:uppercase;
+}
+
+*html ul.megamenu a.mm-item-link:link, *html ul.megamenu a.mm-item-link:visited {
+  border-color: pink;
+  filter: chroma(color=pink);
+}
+
+ul.megamenu a.mm-item-link-hover:link, ul.megamenu a.mm-item-link-hover:visited {
+  color: #bad2a4;
+}
+
+ul.megamenu div.mm-item-content {
+  padding: 0px;
+  position: absolute;
+  z-index: 9;
+}
+
